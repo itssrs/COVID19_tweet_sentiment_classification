@@ -4,6 +4,8 @@
 
 Text Classification on the COVID19 tweet data. The tweets have been pulled from Twitter and manual tagging has been done then. The names and usernames have been given codes to avoid any privacy concerns
 
+https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
+
 `Step to train model`
 
 > * Download the Repo
