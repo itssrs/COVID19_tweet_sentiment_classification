@@ -2,7 +2,18 @@
 
 `Problem Statement`
 
-Perform Text Classification on the data. The tweets have been pulled from Twitter and manual tagging has been done then. The names and usernames have been given codes to avoid any privacy concerns
+Text Classification on the COVID19 tweet data. The tweets have been pulled from Twitter and manual tagging has been done then. The names and usernames have been given codes to avoid any privacy concerns
+
+`Step to train model`
+
+> * Download the Repo
+> * Run src/training.py file to generate train and test data save to Dataset directory.
+> * Run command to start the training `python -m spacy train config/config.cfg --output ./output`
+
+`Step to test model using Streamlit`
+
+> * Run the main.py file `streamlit run main.py`
+> * Below images are the result 
 
 ![image](https://user-images.githubusercontent.com/62031889/122270976-872ebe00-cefc-11eb-9125-b78515863255.png)
 
